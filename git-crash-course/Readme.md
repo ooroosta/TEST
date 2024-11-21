@@ -36,6 +36,17 @@ git clone https://github.com/ooroosta/TEST.git
 cd TEST
 ```
 
+** You'll need to generate a Personal Access Token (PAT)
+https://github.com/settings/token
+
+You will use the PAT as your password when ever you log in
+
+** Give it access to Contents for commits
+
+** SSH
+
+git@github.com:ooroosta/TEST.git
+
 ** Commits
 When we want to commit code we can run git commit which will open up the commit edit message in the editor of choice.
 
@@ -54,6 +65,22 @@ git commit -m "add another exclamation"
 ```
 
 ** Branches
+
+** List of branches
+
+```sh
+git branch
+```
+** Create new branch
+
+```sh
+git branch branch-name
+```
+** Checkout the branch
+
+```sh
+git checkout dev
+```
 
 ** Remotes
 
