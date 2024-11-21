@@ -45,7 +45,13 @@ git commit
 Set the global editor
 ```sh
 git config --global core.editor emacs
+```
 
+** Make a commit message and commit without opening an editor
+
+```sh
+git commit -m "add another exclamation"
+```
 
 ** Branches
 
@@ -82,4 +88,16 @@ The git config file is what stores your global configuration for git such as ema
 
 ```sh
 git config --list
+```
+
+** Log
+
+git log will show recent git commits to the tree
+
+** Push
+
+when we want to push a repo to our remote origin
+
+```sh
+git push
 ```
